@@ -1,6 +1,9 @@
-#include <windows.h>
-
+#include <iostream>
 int main()
 {
-	MessageBox(nullptr, "World!", "Hello", MB_ICONEXCLAMATION);
+	std::cout << "Enter a number!\n";
+	int value = 0;
+	std::cin >> value;
+	std::cout << "value = " << value << "\n";
+	return 0;
 }
