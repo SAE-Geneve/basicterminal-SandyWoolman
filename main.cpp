@@ -6,14 +6,11 @@ using namespace std;
 enum class State {
 	INTRO,
 	DEHORS,
-	POMMES,
 	FIN,
 	AUBERGE,
 	AUBERGISTE,
-	MONTE,
 	CHAMBRE,
 };
-// VARIABLES GLOBALES
 State CurrentState = State::INTRO;
 string PlayerName;
 
