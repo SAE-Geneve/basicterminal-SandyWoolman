@@ -64,13 +64,12 @@ State Dehors() {
 	cout << "Vous etes dehors de l'auberge. \n"
 		<< "Que faites-vous?\n "
 		<< "Je rentre dans l'auberge. 1\n "
-		<< "Je n'ai pas envie d'aller chercher l'amulette. Les prophecies sont pour les tarlouzes. 2\n";
+		<< "Je n'ai pas envie d'aller chercher l'amulette. Les prophecies sont pour les idiots. 2\n";
 	int Choice;
 	cin >> Choice;
 	switch(Choice) {
 		case 1:			
-			cout << "Vous rentrez dans l'auberge. Vous voyez le proprietaire en train de parlez avec un homme à capuche, la charmante serveuse d'hier soir balaye le sol.\n Que faites-vous? \n Je m'anonce à l'aubergiste. (1)\n Je monte dans la chambre ou j'ai dormi hier soir. (2)\n";
-			Aubergiste();
+			cout << "Vous rentrez dans l'auberge. Vous voyez le proprietaire en train de parlez avec un homme, la charmante serveuse d'hier soir balaye le sol.\n Que faites-vous? \n Je m'anonce à l'aubergiste. (1)\n Je monte dans la chambre ou j'ai dormi hier soir. (2)\n";
 			return State::AUBERGE;
 			break;
 		default:
